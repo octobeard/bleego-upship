@@ -1,0 +1,120 @@
+body {
+	background-color: #000000;
+	font-family:arial,helvetica,clean,sans-serif;
+}
+
+.art {
+	background-image: url(ship.jpg);
+	width:900px;
+	height:548px;
+	float:left;
+	z-index:-1;
+	top:0;
+	position:absolute;
+    margin-left:160px;
+}
+
+.tracklist {
+	width: 300px;
+	margin-left:30px;
+	margin-top:30px;
+}
+
+.tracklist audio {
+	float:left;
+	clear:both;
+}
+
+.tracklist h3 {
+	color:#aaaaaa;
+}
+
+.tracklist h4 {
+	color:#aaaaaa;
+	
+}
+
+.tracklist a {
+	text-decoration:none;
+	color:#888;
+	font-size:0.8em;
+	margin-right:7px;
+}
+
+.tracklist span {
+	font-family:arial,helvetica,clean,sans-serif;
+	font-size:.9em;
+	color:white;
+}
+
+.tracklist div.icon {
+	background-image:url(pp.gif);
+	width:17px;
+	height:17px;
+	cursor:pointer;
+}
+
+.tracklist ul {
+	float:left;
+	clear:both;
+}
+
+ul {
+	width:300px;
+	height:0;
+	list-style-type:none;
+}
+
+li {
+	float:left;
+}
+
+li.icon {
+	width:20px;
+	margin-right:3px;
+}
+
+div.play {
+	background-position: 0 17px;
+}
+
+li.text {
+	width:130px;
+}
+
+li.link {
+	width:50px;
+}
+
+audio {
+	width:0;
+	height:0;
+}
+
+.description {
+	width:600px;
+	margin-left:30px;
+	margin-top:30px;
+	float:left;
+	clear:both;
+}
+
+.description span {
+    color:#aaaaaa;
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+.description p {
+	color:white;
+	font-size: .7em;
+}
+
+.description p.download {
+	font-size: 1em;
+}
+
+.description a {
+	text-decoration:none;
+	color:#aaaaaa;
+}
